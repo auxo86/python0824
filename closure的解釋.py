@@ -13,3 +13,8 @@ print [len(day) for day in day_of_week]
 day_of_week2 = ('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturdat')
 print type(day_of_week), type(day_of_week2)
 print [len(day) for day in day_of_week2]
+
+# 用tuple接list
+sun, mon, tue, wed, thr, fri, sat = day_of_week
+print sun, tue, fri
+print mon
