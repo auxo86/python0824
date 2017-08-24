@@ -19,3 +19,6 @@ print '%10s' % '0123456789'
 print u'{:>10}'.format(u'中文')
 str1 = u'中文'
 print repr(str1.encode('utf8'))
+print repr(str1.encode('ms950'))
+print repr(str1.encode('big5'))
+
