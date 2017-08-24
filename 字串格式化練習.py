@@ -17,3 +17,5 @@ print '{:>10}'.format('中文')
 print '%10s' % '0123456789'
 # 如果是utf-8字串，就要記得前後都要加u
 print u'{:>10}'.format(u'中文')
+str1 = u'中文'
+print repr(str1.encode('utf8'))
